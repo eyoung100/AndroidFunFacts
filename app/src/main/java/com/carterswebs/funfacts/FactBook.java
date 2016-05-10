@@ -5,7 +5,7 @@ import java.util.Random;
 public class FactBook {
 
     // Member Variables
-    String[] mFacts = {
+    private String[] mFacts = {
             "Ants stretch when they wake up in the morning.",
             "Ostriches can run faster than horses.",
             "Olympic gold medals are actually made mostly of silver.",
