@@ -33,7 +33,7 @@ public class FunFactsActivity extends Activity {
                 String newFact = mFactBook.getFact();
                 int color = mColorWheel.getColor();
 
-                // Update factLabel and botton with new color and fact.
+                // Update factLabel and button with new color and fact.
                 relativeLayout.setBackgroundColor(color);
                 factLabel.setText(newFact);
                 showFactButton.setTextColor(color);
