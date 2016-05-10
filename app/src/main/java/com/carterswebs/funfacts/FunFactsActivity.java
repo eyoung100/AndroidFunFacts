@@ -39,7 +39,9 @@ public class FunFactsActivity extends Activity {
                 showFactButton.setTextColor(color);
             }
         };
+
         showFactButton.setOnClickListener(listener);
-        Log.d(TAG, "Activity Created");
+       // Toast.makeText(FunFactsActivity.this, "Yay, our Activity was Created!", Toast.LENGTH_SHORT).show();
+        Log.d(TAG, "We're Logging from the onCreate() method!");
     }
 }
